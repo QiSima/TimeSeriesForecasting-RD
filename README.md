@@ -1,9 +1,5 @@
 # Reinforced Decoder: Towards Training Recurrent Neural Networks for Time Series Forecasting
-Pytorch implementation of the [Reinforced Decoder](https://arxiv.org/abs/1710.02224) (Reinforced Decoder). Here, a novel training and decoding approach that introduces auxiliary models and leverages reinforcement learning to guide the decoder processing, is proposed for S2S models in time series forecasting. 
-
-<p align="center">
-	<img src="./assets/RL_Decoder.png">
-</p>
+Pytorch implementation of the [Reinforced Decoder](http://arxiv.org/abs/2406.09643) (Reinforced Decoder). Here, a novel training and decoding approach that introduces auxiliary models and leverages reinforcement learning to guide the decoder processing, is proposed for S2S models in time series forecasting. 
 
 ## Getting Started
 To get started, ensure you have Conda installed on your system and follow these steps to set up the environment:
