@@ -1,5 +1,6 @@
 # Reinforced Decoder: Towards Training Recurrent Neural Networks for Time Series Forecasting
-Pytorch implementation of the [Reinforced Decoder](http://arxiv.org/abs/2406.09643) (Reinforced Decoder). Here, a novel training and decoding approach that introduces auxiliary models and leverages reinforcement learning to guide the decoder processing, is proposed for S2S models in time series forecasting. 
+Pytorch implementation of the Reinforced Decoder. Here, a novel training and decoding approach that introduces auxiliary models and leverages reinforcement learning to guide the decoder processing, is proposed for S2S models in time series forecasting. 
+
 
 ## Getting Started
 To get started, ensure you have Conda installed on your system and follow these steps to set up the environment:
@@ -10,7 +11,7 @@ To get started, ensure you have Conda installed on your system and follow these 
 * torch == 2.2.1
 
 ### Dataset
-All the datasets needed for Reinforced Decoder can be obtained from the following links, which cover both simulated and real-world time series and have different time granularities and are either univariate or multivariate.
+All the datasets needed for Reinforced Decoder can be obtained from the following public links, which cover both simulated and real-world time series and have different time granularities and are either univariate or multivariate.
 * https://github.com/Analytics-for-Forecasting/OpenForecasting/tree/main/data/synthetic/mg. 
 * https://archive.ics.uci.edu/ml/datasets/sml2010.
 * https://archive.ics.uci.edu/ml/datasets/PM2.5+Data+of+Five+Chinese+Cities.
@@ -34,17 +35,5 @@ The S2S model with Informer and ESLSTM structures is based on the following repo
 * https://github.com/zhouhaoyi/Informer2020
 * https://github.com/zwd2016/HSN-LSTM
 
-## Citation
-For more details, please see our paper ([https://arxiv.org/abs/1710.02224](https://arxiv.org/abs/2406.09643)).  
-
-```
-@misc{sima2024reinforced,
-	title = Reinforced Decoder: Towards Training Recurrent Neural Networks for Time Series Forecasting,
-  	author = {Sima, Qi and Zhang, Xinze and Bao, Yukun and Yang, Siyue and Shen, Liang},
-	url = {http://arxiv.org/abs/2406.09643},
-	year = {2024}
-}
-```
-
 ## Contact
-For any questions, you are welcome to contact us via qisima@hust.edu.cn.
+For any questions, you are welcome to contact corresponding author, Yukun Bao (yukunbao@hust.edu.cn).
