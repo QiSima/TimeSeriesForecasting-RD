@@ -25,7 +25,6 @@ python run_model.py
 ```
 
 ## Acknowledgement
-This work was supported by the National Natural Science Foundation of China (72242104),  the China Postdoctoral Science Foundation (2024M761027), and the Interdisciplinary Research Program of Hust (2024JCYJ020).
 
 This library is constructed based on the following repos:
 * https://github.com/Analytics-for-Forecasting/msvr
@@ -36,4 +35,3 @@ The S2S model with Informer and ESLSTM structures is based on the following repo
 * https://github.com/zwd2016/HSN-LSTM
 
 ## Contact
-For any questions, you are welcome to contact corresponding author, Yukun Bao (yukunbao@hust.edu.cn).
